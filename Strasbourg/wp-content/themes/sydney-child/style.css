@@ -1,0 +1,94 @@
+/*
+Theme Name: sydney-child
+Template: sydney
+Theme URI: http://athemes.com/theme/sydney
+Author: aThemes
+Author URI: http://athemes.com
+Description: Sydney is a powerful business theme that provides a fast way for companies or freelancers to create an awesome online presence. Sydney brings plenty of customization possibilities like access to all Google Fonts, full color control, layout control, logo upload, full screen slider, header image, sticky navigation and much more. Also, Sydney provides all the construction blocks you need to rapidly create an engaging front page.
+Version: 1.45
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sydney
+Tags: two-columns, right-sidebar, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+Sydney is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+*/
+
+/*couleur des bouton des formulaires*/
+input.wpcf7-form-control.wpcf7-submit {
+	background-color: #4054b2; color:#e56ea9;
+}
+
+/*titre, slogan et titre h5 dans footer*/
+h5, h1.site-title a, h2.site-description, .classic-alt .entry-title a{
+	color:#e56ea9;
+}
+
+/*barre de navigation*/
+*,.site-header.col-md-4,.site-header .col-md-4, .site-header .col-md-8 #mainnav ul li a {
+	font-size:1em;
+	font-weight:bold;
+	color:#e56ea9;
+}
+
+/*MENU DE NAV PRINCIPAL*/
+/*arrière plan de la barre du menu de navigation*/
+.site-header.fixed.float-header {
+	background-color: rgba(0, 0, 255, 0.5);
+}
+
+/*hover de la barre de navigation*/
+i:hover,span:hover,.site-header .col-md-4, .site-header .col-md-8 #mainnav ul li a:hover{
+	font-size:1em;
+	font-weight:bold;
+	color:#4054b2;
+}
+
+/*SIDE BARRE FIXE*/
+aside.widget.widget_media_gallery {
+	position:fixed;
+}
+
+/*titre du site*/
+h1.site-title a:hover {
+	color:#e56ea9;
+	cursor:default;
+}
+
+/*liens footer*/
+a,.footer-widgets .widget-title,.widget-area, .widget-area a,input:-moz-placeholder, textarea:-moz-placeholder, input::-moz-placeholder, textarea::-moz-placeholder {
+	color:#4054b2;
+}
+
+/*couleur d'arrière plan du footer*/
+.footer-widgets.widget-area {
+	background-color:rgba(229, 110, 169, 0.5);
+}
+
+/*bouton remonte-page*/
+.go-top.show{
+	background-color:#e56ea9;
+}
+
+/*contour de la police des titres des articles des actualités*/
+.classic-alt .entry-title a {
+	text-shadow: 0 0 3px #4054b2;
+}
+
+/*bouton de la page courante dans les 5 articles par page de l'actualié*/
+.nav-links span.page-numbers.current {
+	background-color:#4054b2;
+	color:#e56ea9;
+}
+/*bouton de la page numérotée suivant le bouton de la page active de l'actualité*/
+.nav-links span.page-numbers.current {
+	background-color:#e56ea9;
+	color:#4054b2;
+}
+
+/*Les titres des page "plus d'infos", "Activités du mois", "Fiche d'inscripstion" et "Contact"*/
+h1.title-post.entry-title {
+	color:#4054b2;
+}
